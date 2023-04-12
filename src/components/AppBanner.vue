@@ -8,6 +8,17 @@ export default {
 }
 </script>
 <template>
-    <h2>{{ bannerTitle }}</h2>
+    <div class="banner">
+        <h2 class="banner-title">{{ bannerTitle }}</h2>
+    </div>
 </template>
-<style></style>
+<style>
+.banner {
+    width: 100%;
+    border: 1px solid white;
+}
+
+.banner-title {
+    text-align: center;
+}
+</style>
