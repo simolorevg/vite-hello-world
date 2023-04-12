@@ -13,8 +13,12 @@ export default {
 </script>
 
 <template>
-  <h1>{{ title }}</h1>
+  <h1 class="main-title">{{ title }}</h1>
   <bannerTitle />
 </template>
 
-<style></style>
+<style>
+.main-title {
+  color: red;
+}
+</style>
