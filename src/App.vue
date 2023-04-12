@@ -20,5 +20,6 @@ export default {
 <style>
 .main-title {
   color: red;
+  text-align: center;
 }
 </style>

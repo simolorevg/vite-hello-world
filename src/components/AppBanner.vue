@@ -10,6 +10,7 @@ export default {
 <template>
     <div class="banner">
         <h2 class="banner-title">{{ bannerTitle }}</h2>
+        <img class="banner-img" src="../assets/roma.jpg" alt="Roma">
     </div>
 </template>
 <style>
@@ -20,5 +21,11 @@ export default {
 
 .banner-title {
     text-align: center;
+}
+
+.banner-img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
 }
 </style>
